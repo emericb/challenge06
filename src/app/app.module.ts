@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DeveloperComponent } from './developer/developer.component';
 import { SkillComponent } from './skill/skill.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SkillComponent } from './skill/skill.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
